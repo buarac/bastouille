@@ -2,6 +2,8 @@
 
 ## 🎯 Vision Produit
 
+**Nom de l'application** : `Baštouille`
+
 Application de suivi des récoltes dans un jardin/potager personnel, utilisée principalement sur iPhone et hébergée localement sur macOS.  
 L’objectif est de remplacer un fichier Excel par une application intuitive, permettant de suivre les cultures, d’ajouter des récoltes, de consulter des statistiques et d’intégrer des données météo.
 
