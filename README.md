@@ -11,14 +11,15 @@ Ce tableau présente l’état d’avancement des US fonctionnelles et technique
 
 | Catégorie      | ID    | Intitulé                                     | Version   | Statut          |
 |----------------|-------|-----------------------------------------------|-----------|------------------|
-| 📘 Cultures    | US01  | Créer une fiche culture                       | MVP       | 🟡 En cours  |
-|                | → US20  | Définir le modèle `Culture`                  | MVP       | ✅ Terminée      |
-|                | → US21  | GET /api/cultures                            | MVP       | 🟡 En cours      |
-|                | → US22  | POST /api/cultures                           | MVP       | 🔴 Non démarrée  |
-|                | → US23  | PUT /api/cultures/:id                        | MVP       | 🔴 Non démarrée  |
-|                | → US24  | DELETE /api/cultures/:id                     | MVP       | 🔴 Non démarrée  |
+| 📘 Cultures    | US01  | Créer une fiche culture                       | MVP       | ✅ Terminée  |
+|                | → US20  | Définir le modèle `Culture`                  | MVP       | ✅ Terminée |
+|                | → US21  | GET /api/cultures                            | MVP       | ✅ Terminée |
+|                | → US22  | POST /api/cultures                           | MVP       | ✅ Terminée |
+|                | → US29  | GET /api/cultures/:id                     | MVP       | ✅ Terminée |
 |                | US02  | Différencier cultures annuelles / arbres      | MVP       | 🔴 Non démarrée  |
-|                | US03  | Modifier ou supprimer une culture             | MVP       | 🔴 Non démarrée  |
+|                | US03  | Modifier ou supprimer une culture             | MVP       | ✅ Terminée  |
+|                | → US23  | PUT /api/cultures/:id                        | MVP       | ✅ Terminée |
+|                | → US24  | DELETE /api/cultures/:id                     | MVP       | ✅ Terminée |
 | 🧺 Récoltes    | US06  | Ajouter une nouvelle récolte                  | MVP       | 🔴 Non démarrée  |
 |                | → US25  | Définir le modèle `Récolte`                  | MVP       | 🔴 Non démarrée  |
 |                | → US26  | POST /api/recoltes                           | MVP       | 🔴 Non démarrée  |

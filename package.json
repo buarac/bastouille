@@ -6,10 +6,13 @@
     "client",
     "server"
   ],
-    "scripts": {
+  "scripts": {
     "dev": "npm --workspace client run dev",
     "build": "npm --workspace client run build",
     "prepare": "npm --workspace client run build && cp -r client/dist server/public",
     "start": "npm --workspace server start"
+  },
+  "dependencies": {
+    "uuid": "^11.1.0"
   }
 }

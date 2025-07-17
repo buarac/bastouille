@@ -1,0 +1,48 @@
+### 🔎 TESTS API – Fichier global `tests.http`
+
+# US21 – Lister les cultures
+GET http://localhost:3000/api/cultures
+Accept: application/json
+
+---
+
+### ➕ Créer une nouvelle culture – US22
+POST http://localhost:3000/api/cultures
+Content-Type: application/json
+
+{
+  "nom": "Tomate",
+  "type": "fruit",
+  "variete": "Cœur de bœuf",
+  "unite_recolte": "grammes",
+  "picto": "🍅",
+  "image": null,
+  "notes": "Plantée sous serre mi-avril"
+}
+
+---
+
+### ✏️ Modifier une culture – US23
+PUT http://localhost:3000/api/cultures/1e46d1b4-3e9f-47b6-a52e-ec0a0c429dd6
+Content-Type: application/json
+
+{
+  "nom": "Poireau",
+  "type": "légume",
+  "variete": "Jaune gros du Poitou",
+  "unite_recolte": "unités",
+  "picto": "🧅",
+  "image": null,
+  "notes": "Repiqué début mars"
+}
+
+---
+
+### 🗑 Supprimer une culture – US24
+DELETE http://localhost:3000/api/cultures/7c9c71fd-fdf3-4c84-8d5a-40ae8d66f9df
+
+---
+
+### 🔍 Consulter une culture spécifique – US29
+GET http://localhost:3000/api/cultures/1e46d1b4-3e9f-47b6-a52e-ec0a0c429dd6
+Accept: application/json

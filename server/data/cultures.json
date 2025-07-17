@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1e46d1b4-3e9f-47b6-a52e-ec0a0c429dd6",
+    "nom": "Poireau",
+    "type": "légume",
+    "variete": "Jaune gros du Poitou",
+    "unite_recolte": "unités",
+    "picto": "🧅",
+    "image": null,
+    "date_creation": "2025-07-17",
+    "notes": "Repiqué début mars"
+  },
+  {
+    "id": "bd4d8482-3e1b-4021-bdd6-202aef83ebc4",
+    "date_creation": "2025-07-17",
+    "nom": "Tomate",
+    "type": "fruit",
+    "variete": "Cœur de bœuf",
+    "unite_recolte": "grammes",
+    "picto": "🍅",
+    "image": null,
+    "notes": "Plantée sous serre mi-avril"
+  }
+]

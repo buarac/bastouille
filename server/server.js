@@ -1,17 +1,15 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+// À ajouter dans server.js (US21)
+const culturesRoutes = require('./routes/cultures');
 
 const app = express();
 const PORT = 3000;
 
 app.use(cors());
 app.use(express.json());
-
-// API de test
-app.get('/api/hello', (req, res) => {
-  res.json({ message: 'Bienvenue sur l’API de Baštouille' });
-});
+app.use('/api/cultures', culturesRoutes);
 
 // Servir les fichiers statiques du frontend
 app.use(express.static(path.join(__dirname, 'public')));

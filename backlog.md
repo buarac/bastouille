@@ -100,6 +100,8 @@ Techno : Node.js, persistance préférée en JSON, rendu mobile proche d’une a
       🔗 Implémente **US03 – Éditer une culture**
 - [ ] **US24** – Supprimer une culture (`DELETE /api/cultures/:id`)  
       🔗 Implémente **US03**
+- [ ] **US29** – Consulter une culture spécifique (`GET /api/cultures/:id`)  
+      🔗 Implémente **US01 – Créer une fiche culture**
 
 ### 🧺 API Récoltes
 - [ ] **US25** – Définir le modèle `Récolte`  
