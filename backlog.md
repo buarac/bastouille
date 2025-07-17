@@ -56,6 +56,9 @@ Techno : Node.js, persistance préférée en JSON, rendu mobile proche d’une a
 ### 🗄️ Épic : Architecture évolutive
 - [ ] **US19** – Migration possible vers une base de données
 
+### 🧭 Épic : Navigation
+- [ ] **US30** – Naviguer dans l’application  
+🧭 L’utilisateur peut naviguer entre les différentes sections de l’application (Accueil, Récolte, Cultures, Historique, Comparaison) via une barre de navigation fixe
 ---
 
 ## 🔧 Épic : API – Support technique
@@ -113,6 +116,15 @@ Techno : Node.js, persistance préférée en JSON, rendu mobile proche d’une a
 - [ ] **US28** – Obtenir les cumuls par culture/saison (`GET /api/stats/recoltes`)  
       🔗 Implémente **US11 – Voir les cumuls de récolte**
 
+### 🧭 Navigation
+- [ ] **US31** – Mettre en place la structure de routes avec `react-router-dom`  
+🔗 Permettre le routage entre les pages principales via `/accueil`, `/recolte`, `/cultures`, `/historique`, `/comparaison`
+
+- [ ] **US32** – Créer les composants de page vides pour chaque section  
+📄 Créer des composants React pour les vues de navigation (Accueil, Récolte, Cultures, etc.)
+
+- [ ] **US33** – Implémenter une barre de navigation fixe avec icônes Lucide  
+🧭 Ajouter la barre de navigation mobile avec `lucide-react` pour gérer les liens vers chaque route
 ---
 
 ## 📌 Notes
