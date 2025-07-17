@@ -5,6 +5,47 @@ Elle fonctionne en local sur macOS, est accessible depuis un iPhone via le rése
 
 ---
 
+## 📊 Suivi des User Stories
+
+Ce tableau présente l’état d’avancement des US fonctionnelles et techniques de l’application **Baštouille**.
+
+| Catégorie      | ID    | Intitulé                                     | Version   | Statut          |
+|----------------|-------|-----------------------------------------------|-----------|------------------|
+| 📘 Cultures    | US01  | Créer une fiche culture                       | MVP       | 🟡 En cours  |
+|                | → US20  | Définir le modèle `Culture`                  | MVP       | ✅ Terminée      |
+|                | → US21  | GET /api/cultures                            | MVP       | 🟡 En cours      |
+|                | → US22  | POST /api/cultures                           | MVP       | 🔴 Non démarrée  |
+|                | → US23  | PUT /api/cultures/:id                        | MVP       | 🔴 Non démarrée  |
+|                | → US24  | DELETE /api/cultures/:id                     | MVP       | 🔴 Non démarrée  |
+|                | US02  | Différencier cultures annuelles / arbres      | MVP       | 🔴 Non démarrée  |
+|                | US03  | Modifier ou supprimer une culture             | MVP       | 🔴 Non démarrée  |
+| 🧺 Récoltes    | US06  | Ajouter une nouvelle récolte                  | MVP       | 🔴 Non démarrée  |
+|                | → US25  | Définir le modèle `Récolte`                  | MVP       | 🔴 Non démarrée  |
+|                | → US26  | POST /api/recoltes                           | MVP       | 🔴 Non démarrée  |
+|                | → US27  | GET /api/recoltes?cultureId=...              | MVP       | 🔴 Non démarrée  |
+|                | → US28  | GET /api/stats/recoltes                      | MVP       | 🔴 Non démarrée  |
+|                | US07  | Enregistrer la quantité récoltée             | MVP       | 🔴 Non démarrée  |
+|                | US08  | Consulter l’historique des récoltes          | MVP       | 🔴 Non démarrée  |
+| 📱 Mobile UI   | US16  | Interface fluide sur iPhone                  | MVP       | 🔴 Non démarrée  |
+|                | US17  | Installation en PWA                          | MVP       | 🔴 Non démarrée  |
+| 🗄️ Stockage    | US18  | Persistance locale en fichiers JSON          | MVP       | 🔴 Non démarrée  |
+
+| 🚧 À venir     |       |                                               |           |                  |
+|----------------|-------|-----------------------------------------------|-----------|------------------|
+| 🌱 Cultures    | US04  | Enregistrer les étapes clés (semis, etc.)     | V2        | 🔴 Non démarrée  |
+|                | US05  | Visualiser les dates importantes              | V2        | 🔴 Non démarrée  |
+| ☁️ Météo       | US09  | Associer des données météo à une récolte      | V2        | 🔴 Non démarrée  |
+|                | US10  | Récupération automatique des infos météo      | V2        | 🔴 Non démarrée  |
+| 📊 Stats       | US11  | Voir les cumuls par culture et par saison     | V2        | 🔴 Non démarrée  |
+|                | US12  | Comparer les récoltes entre saisons/années    | V2        | 🔴 Non démarrée  |
+|                | US13  | Graphique de progression des récoltes         | V2        | 🔴 Non démarrée  |
+| 👥 Partage     | US14  | Partage local entre 2 utilisateurs             | Ultérieur | 🔴 Non démarrée  |
+|                | US15  | Ajout de récolte sans authentification        | Ultérieur | 🔴 Non démarrée  |
+| ⚙️ Technique   | US19  | Migration vers base de données                | Ultérieur | 🔴 Non démarrée  |
+
+---
+
+
 ## 🚀 Lancer l'application (version unifiée)
 
 ### 📦 Prérequis
